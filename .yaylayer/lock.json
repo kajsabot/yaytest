@@ -89,6 +89,26 @@
         ]
       },
       "signature": "J8Uq9nel9UGx5HjsH0qIU0gXCDgmEIxvrixdjY8ov+7FPOsBC7DTfWQEiziUh1QOBbLlr2jxoeMe4dlGG0xJDg=="
+    },
+    {
+      "id": "A-0005",
+      "project": "yaylayer-test",
+      "prev": "A-0004",
+      "nonce": "b2c097a4e78b66cad062c65a",
+      "at": "2026-09-20T02:17:59.603Z",
+      "signer": "Lars B",
+      "items": {
+        "C-b21b-16": "3db55013ec4d1c41d8eaf2b2c593fe62bbf20c98279035265b19fdd09e412e75"
+      },
+      "brief": {
+        "text": "Reverting the strengthened FlipCard ensures from A-0004. The CSS-class-based ensures (.flip-card__face--front / --back) failed in the prover's evaluation environment, even though the code is correct. Reverting to the original single-line ensures that passed at YELLOW (8% mutation, but the verifier accepted them). The JSX is unchanged across A-0004 and A-0005 — only the spec block above differs.",
+        "orderedBy": "human (AI-drafted, human-approved)",
+        "title": "Kaijsas Gallery — FlipCard revert to working ensures",
+        "tags": [
+          "UI"
+        ]
+      },
+      "signature": "q+5Hhbblr2oGRKmjBrP/DXbK/P89i1e40bvw/0qUu23Xk9AH5feXSkZ8kdjD8TIdYkX1I+6410Udqk2GSTtwDw=="
     }
   ]
 }

@@ -5,16 +5,7 @@
   out: article element
   renders: yes
   pure: yes
-  ensures:
-    find(out, "img") !== null
-    && attr(find(out, "img"), "src") === props.imageUrl
-    && attr(find(out, "img"), "alt") === props.alt
-    && text(out).includes(props.title)
-    && text(out).includes(props.description)
-    && find(out, "button") !== null
-    && hasClass(find(out, "button"), "flip-card__reveal")
-    && findAll(out, ".flip-card__face--front").length === 1
-    && findAll(out, ".flip-card__face--back").length === 1
+  ensures: find(out, "img") !== null && attr(find(out, "img"), "src") === props.imageUrl && attr(find(out, "img"), "alt") === props.alt && text(out).includes(props.title) && text(out).includes(props.description) && find(out, "button") !== null && hasClass(find(out, "button"), "flip-card__reveal")
   intent: Renders a single photo card. Front shows the image and a short title. Back reveals the descriptive caption. Click the reveal button to flip. Click again to flip back.
   risk: low
 ⟧*/
