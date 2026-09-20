@@ -1,0 +1,12 @@
+/*∷YAY⟨C-b21b-8⟩
+  unit: mountApp
+  lang: js
+  in: {}
+  out: undefined
+  pure: no
+  effects: dom
+  ensures: true
+  intent: Mounts the React App to #root. One-shot bootstrap.
+  risk: low
+⟧*/
+/*∷YAY-END⟨C-b21b-8⟩*/

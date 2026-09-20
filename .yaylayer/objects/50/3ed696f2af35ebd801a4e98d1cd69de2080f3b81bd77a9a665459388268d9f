@@ -1,0 +1,18 @@
+/*∷YAY⟨C-b21b-2⟩
+  unit: useTheme
+  lang: js
+  in: void
+  out: { theme: "light"|"dark", toggleTheme: () => void, setTheme: (t) => void }
+  pure: no
+  effects: dom; localStorage
+  ensures: |
+    out.theme === "light" || out.theme === "dark";
+    typeof out.toggleTheme === "function";
+    typeof out.setTheme === "function";
+    calling out.toggleTheme() flips the stored theme;
+    out.setTheme("light") sets stored theme to "light";
+    out.setTheme("dark") sets stored theme to "dark"
+  intent: React hook that exposes the current theme (light or dark) and helpers to toggle or set it, persisting across reloads and reflecting changes on the document root.
+  risk: low
+⟧*/
+/*∷YAY-END⟨C-b21b-2⟩*/
