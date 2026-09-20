@@ -1,4 +1,4 @@
-/*∷YAY⟨C-b21b-8⟩
+/*∷YAY⟨C-b21b-19⟩
   unit: mountApp
   lang: js
   in: {}
@@ -6,10 +6,10 @@
   pure: no
   effects: dom
   ensures: true
-  intent: Mounts the React App to #root. One-shot bootstrap.
+  intent: Mounts the React App to #root. One-shot bootstrap with no specifiable return value.
   risk: low
 ⟧*/
-/*∷YAY-END⟨C-b21b-8⟩*/
+/*∷YAY-END⟨C-b21b-19⟩*/
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { App } from './App.jsx';
@@ -25,3 +25,5 @@ export function mountApp() {
     </StrictMode>
   );
 }
+
+(function init() { mountApp(); })();

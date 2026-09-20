@@ -25,6 +25,50 @@
         ]
       },
       "signature": "NucorFCoyrtsX3CZhE0ARSZZE8qhfkluNA4szH1AYmNu+PsS7qEaJW3FrlBiu0/Qj32fO4GCXy0CY1hDerAGBw=="
+    },
+    {
+      "id": "A-0002",
+      "project": "yaylayer-test",
+      "prev": "A-0001",
+      "nonce": "78310f8f9fba2e4a096275a3",
+      "at": "2026-09-20T01:50:11.271Z",
+      "signer": "Lars B",
+      "items": {
+        "C-b21b-18": "b21b8653756d544bc5ed0bd7dc89b21ddc898d353c86ca452e8ad7b30a21d181",
+        "C-b21b-16": "3db55013ec4d1c41d8eaf2b2c593fe62bbf20c98279035265b19fdd09e412e75",
+        "C-b21b-17": "ed0a9beaf4280913b7a2645ecc2990f4e95d925ab99949398364334c279fa2fe",
+        "C-b21b-15": "b341d0f350af65bf9a8e08fa07c343d16b17b081cb56f74c365801c3d4cfa59d",
+        "C-b21b-19": "a8d4c18ade36433185b5361e31cd122946df3853d94f08a88d016fcd4ffa8887"
+      },
+      "brief": {
+        "text": "Kaijsas Gallery — a photo gallery for the Turkey 2026 trip. Eight photo cards in a responsive grid; each card flips on click to reveal a personal descriptive caption. Light mode only — no theme toggle. Site header shows the title Kaijsas Gallery with a trip subtitle. Modern React 18 + Vite, no extra UI libraries. Five Cells: C-b21b-15 Header (title + subtitle), C-b21b-16 FlipCard (single photo card with flip state), C-b21b-17 Gallery (responsive grid of 8 cards), C-b21b-18 App (composes Header + Gallery), C-b21b-19 mountApp (React entry point).",
+        "orderedBy": "human (AI-drafted, human-approved)",
+        "title": "Kaijsas Gallery — Turkey 2026 (Light Mode)",
+        "tags": [
+          "UI"
+        ]
+      },
+      "signature": "1F02TuvhMxDi6eW0ggD9Y/n+dPbNRv23GGqtJnRnYWFShMtQdXIPssWSRO9CAxZ9dHbT4JJWvYVqa8N+th7lBQ=="
+    },
+    {
+      "id": "A-0003",
+      "project": "yaylayer-test",
+      "prev": "A-0002",
+      "nonce": "4e59d05619101976295ff95c",
+      "at": "2026-09-20T01:58:06.416Z",
+      "signer": "Lars B",
+      "items": {
+        "C-b21b-18": "302109540ea5400dd7a41305cf6c311e4babb1a85efa8677616b100a854703fa"
+      },
+      "brief": {
+        "text": "App.jsx composition for Kaijsas Gallery — Header (title + subtitle + small logo) composed with Gallery (8 photo cards in responsive grid). Light mode only, no theme toggle. Re-signing because the cell SHA changed when implementation was added below the spec block after the original A-0002 sign.",
+        "orderedBy": "human (AI-drafted, human-approved)",
+        "title": "Kaijsas Gallery — App (re-sign)",
+        "tags": [
+          "UI"
+        ]
+      },
+      "signature": "gz1EPU2LAYCWIKxwMQyp7WMw5cizxWiWewSCskvAFn7abpNe+Sk1w+6dwor2nplYsdCp1Eg8LkuZ//1WffkcBg=="
     }
   ]
 }

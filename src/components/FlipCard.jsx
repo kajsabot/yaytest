@@ -1,4 +1,4 @@
-/*∷YAY⟨C-b21b-4⟩
+/*∷YAY⟨C-b21b-16⟩
   unit: FlipCard
   lang: jsx
   in: props: { imageUrl: string, title: string, description: string, alt: string }
@@ -6,10 +6,10 @@
   renders: yes
   pure: yes
   ensures: find(out, "img") !== null && attr(find(out, "img"), "src") === props.imageUrl && attr(find(out, "img"), "alt") === props.alt && text(out).includes(props.title) && text(out).includes(props.description) && find(out, "button") !== null && hasClass(find(out, "button"), "flip-card__reveal")
-  intent: Renders a single photo card whose front shows the image and whose back reveals the description. The reveal button toggles a flipped state.
+  intent: Renders a single photo card. Front shows the image and a short title. Back reveals the descriptive caption. Click the reveal button to flip. Click again to flip back.
   risk: low
 ⟧*/
-/*∷YAY-END⟨C-b21b-4⟩*/
+/*∷YAY-END⟨C-b21b-16⟩*/
 import { useState } from 'react';
 
 export function FlipCard({ imageUrl, title, description, alt }) {
