@@ -69,6 +69,26 @@
         ]
       },
       "signature": "gz1EPU2LAYCWIKxwMQyp7WMw5cizxWiWewSCskvAFn7abpNe+Sk1w+6dwor2nplYsdCp1Eg8LkuZ//1WffkcBg=="
+    },
+    {
+      "id": "A-0004",
+      "project": "yaylayer-test",
+      "prev": "A-0003",
+      "nonce": "6208d897d503e0c96a1447ab",
+      "at": "2026-09-20T02:12:31.781Z",
+      "signer": "Lars B",
+      "items": {
+        "C-b21b-16": "c2ec62c6f5e792cfd2eb6dd19cef46b169db3892f4c7640cd93dfc96c54691ee"
+      },
+      "brief": {
+        "text": "Strengthening C-b21b-16 FlipCard spec: added two new ensures to nail down the dual-face structure of the card (one .flip-card__face--front and one .flip-card__face--back must both render). This is a spec refinement on the existing A-0002/A-0003 work, not a code change — the JSX is identical, only the ensures block above it grew. Re-signing the cell because the file SHA changed.",
+        "orderedBy": "human (AI-drafted, human-approved)",
+        "title": "Kaijsas Gallery — FlipCard spec strengthen",
+        "tags": [
+          "UI"
+        ]
+      },
+      "signature": "J8Uq9nel9UGx5HjsH0qIU0gXCDgmEIxvrixdjY8ov+7FPOsBC7DTfWQEiziUh1QOBbLlr2jxoeMe4dlGG0xJDg=="
     }
   ]
 }
