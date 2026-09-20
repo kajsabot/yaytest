@@ -1,0 +1,17 @@
+{
+  "project": "yaylayer-test",
+  "events": [
+    {
+      "id": "R-0001",
+      "type": "genesis",
+      "role": "owner",
+      "prev": "genesis",
+      "nonce": "9c79aa757aebaa3476a990b5",
+      "at": "2026-09-20T00:18:52.795Z",
+      "name": "Lars B",
+      "pub": "MCowBQYDK2VwAyEAQBDflvmxadJrUinAd2zvpBX38bSAoxeedT5eiPEPvQc=",
+      "by": "Lars B",
+      "signature": "5iStqe11vculjjkSanJFJrxZeGfqvSIA4DvxAVg/OQ/Ru+qLm4vofuFlPRr3JZzPYXpexUU0ZVKzdjSWj7fWDA=="
+    }
+  ]
+}

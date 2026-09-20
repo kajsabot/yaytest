@@ -1,0 +1,22 @@
+{
+  "project": "yaylayer-test",
+  "set": "responsibility",
+  "tags": [
+    "UI",
+    "State",
+    "Events",
+    "Routing",
+    "Business Logic",
+    "Data Access",
+    "API",
+    "Persistence",
+    "Security",
+    "Error Handling",
+    "Logging",
+    "Caching",
+    "Performance",
+    "Testing",
+    "Config",
+    "Infrastructure"
+  ]
+}

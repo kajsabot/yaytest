@@ -1,0 +1,27 @@
+{
+  "project": "yaylayer-test",
+  "created": "2026-09-20T00:18:34.423Z",
+  "signers": {
+    "Lars B": [
+      {
+        "pub": "MCowBQYDK2VwAyEAQBDflvmxadJrUinAd2zvpBX38bSAoxeedT5eiPEPvQc=",
+        "kind": "phone",
+        "addedAt": "2026-09-20T00:19:23.857Z"
+      }
+    ]
+  },
+  "owners": [
+    "Lars B"
+  ],
+  "transport": "relay",
+  "devices": {
+    "Lars B": {
+      "phonePairedAt": "2026-09-20T00:19:23.857Z"
+    }
+  },
+  "plan": {
+    "enabled": true,
+    "provider": "openai",
+    "model": "gpt-4o"
+  }
+}

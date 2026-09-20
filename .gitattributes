@@ -1,0 +1,3 @@
+.yaylayer/lock.json merge=union
+.yaylayer/attest.json merge=union
+.yaylayer/rejections.json merge=union
