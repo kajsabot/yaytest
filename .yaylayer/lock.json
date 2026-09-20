@@ -1,4 +1,30 @@
 {
   "project": "yaylayer-test",
-  "approvals": []
+  "approvals": [
+    {
+      "id": "A-0001",
+      "project": "yaylayer-test",
+      "prev": "genesis",
+      "nonce": "a0feab27315e08b6a851886d",
+      "at": "2026-09-20T01:22:49.294Z",
+      "signer": "Lars B",
+      "items": {
+        "C-b21b-7": "8f404175a936a9419750b27588c813082ef09f705f159b9b3859a060ace563c0",
+        "C-b21b-4": "2f9ce54337d8f9cc071836d56a22d88fdf80d8bf4d296196881eae46d6e028d0",
+        "C-b21b-6": "9d94026c4ed5a95b964d70b121325fec82dcfa3155c155f45b63c389e89bbb73",
+        "C-b21b-3": "fdd654552cd1288da466cb8870e8d0b2ce344ee38f81c6e09b0c5c8631b513a1",
+        "C-b21b-2": "503ed696f2af35ebd801a4e98d1cd69de2080f3b81bd77a9a665459388268d9f",
+        "C-b21b-8": "9b865e3a7d630ce969be9a44da2c4bc34577fb99832d0197daa35efe547ed910"
+      },
+      "brief": {
+        "text": "Modern React photo gallery for the Turkey 2026 trip. Eight photo cards in a responsive grid, each with a real photograph on the front and a personal descriptive caption on the back. Click a card to flip and reveal the description; click again to flip back. Light and dark mode via a toggle in the header; the choice persists across reloads through localStorage and respects the user's system prefers-color-scheme on first visit. Built with Vite and React 18, no extra UI libraries, no external state management.",
+        "orderedBy": "human (AI-drafted, human-approved)",
+        "title": "Trip Gallery — Turkey 2026",
+        "tags": [
+          "UI"
+        ]
+      },
+      "signature": "NucorFCoyrtsX3CZhE0ARSZZE8qhfkluNA4szH1AYmNu+PsS7qEaJW3FrlBiu0/Qj32fO4GCXy0CY1hDerAGBw=="
+    }
+  ]
 }
