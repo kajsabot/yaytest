@@ -1,5 +1,14 @@
 .yaylayer/relay.json
 .yaylayer/local.json
 .env
-.env.localnode_modules/
+.env.local
+node_modules/
 dist/
+
+# Build output
+.vite/
+
+# Local secrets — never commit
+.env
+.env.local
+.env.*.local

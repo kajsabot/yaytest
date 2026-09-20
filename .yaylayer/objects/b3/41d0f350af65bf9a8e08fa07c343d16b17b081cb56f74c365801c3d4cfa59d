@@ -1,0 +1,12 @@
+/*∷YAY⟨C-b21b-15⟩
+  unit: Header
+  lang: jsx
+  in: props: { title: string, subtitle: string }
+  out: header element
+  renders: yes
+  pure: yes
+  ensures: text(out).includes(props.title) && text(out).includes(props.subtitle) && findAll(out, "h1").length >= 1 && find(out, "img") !== null
+  intent: Renders the Kaijsas Gallery header — a small Kaijsa avatar/logo on the left, the site title and subtitle on the right. No theme toggle (light mode only).
+  risk: low
+⟧*/
+/*∷YAY-END⟨C-b21b-15⟩*/

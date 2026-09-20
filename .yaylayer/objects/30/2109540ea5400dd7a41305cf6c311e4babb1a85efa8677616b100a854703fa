@@ -1,0 +1,14 @@
+/*∷YAY⟨C-b21b-18⟩
+  unit: App
+  lang: jsx
+  in: props: {}
+  out: main element
+  renders: yes
+  pure: yes
+  ensures: find(out, "header") !== null && find(out, "section") !== null && hasClass(find(out, "section"), "gallery")
+  feeds: C-b21b-15
+  feeds: C-b21b-17
+  intent: Renders the Kaijsas Gallery app — Header at the top, Gallery of flip-cards below. Light mode only, no toggle.
+  risk: low
+⟧*/
+/*∷YAY-END⟨C-b21b-18⟩*/
