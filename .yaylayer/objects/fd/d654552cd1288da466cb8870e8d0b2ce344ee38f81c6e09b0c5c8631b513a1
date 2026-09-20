@@ -1,0 +1,13 @@
+/*∷YAY⟨C-b21b-3⟩
+  unit: Header
+  lang: jsx
+  in: props: { title: string }
+  out: header element
+  renders: yes
+  pure: yes
+  ensures: text(out).includes(props.title) && find(out, "button") !== null && findAll(out, "h1").length >= 1
+  feeds: C-b21b-2
+  intent: Renders the site header — title on the left, theme toggle button on the right. Reads theme state from useTheme.
+  risk: low
+⟧*/
+/*∷YAY-END⟨C-b21b-3⟩*/

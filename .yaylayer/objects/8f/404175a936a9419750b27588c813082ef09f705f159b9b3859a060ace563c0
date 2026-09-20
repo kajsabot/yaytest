@@ -1,0 +1,14 @@
+/*∷YAY⟨C-b21b-7⟩
+  unit: App
+  lang: jsx
+  in: props: {}
+  out: main element
+  renders: yes
+  pure: yes
+  ensures: attr(find(out, "header"), "data-testid") === "site-header" && attr(find(out, "section"), "data-testid") === "gallery"
+  feeds: C-b21b-3
+  feeds: C-b21b-6
+  intent: Renders the trip gallery app — a Header with site title and theme toggle, followed by the Gallery of photos.
+  risk: low
+⟧*/
+/*∷YAY-END⟨C-b21b-7⟩*/
